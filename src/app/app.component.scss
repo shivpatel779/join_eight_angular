@@ -1,0 +1,29 @@
+.search-box {
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  form {
+    padding-bottom: 10px;
+  }
+}
+.data-table {
+  thead {
+    tr {
+      background-color: #f1f1f1;
+    }
+  }
+  tr {
+    &:nth-child(even) {
+      background: #eee;
+    }
+    &:nth-child(odd) {
+      background: #FFF;
+    }
+  }
+}
+.type {
+  margin-top: 10px;
+}
+.error {
+  margin-left: 44%;  
+}
